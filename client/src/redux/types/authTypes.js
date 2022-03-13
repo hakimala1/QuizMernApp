@@ -1,0 +1,9 @@
+export const SINGUP="SINGUP"
+export const FAIL="FAIL"
+export const SINGIN="SINGIN"
+export const ADDFORMATEUR="ADDFORMATEUR"
+export const GETCURRENT="GETCURRENT"
+export const GETALLUSERS="GETALLUSERS"
+export const LOGOUT="LOGOUT"
+export const CLEAR="CLEAR"
+export const EDIT='EDIT'
