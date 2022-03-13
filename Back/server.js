@@ -4,12 +4,12 @@ const authRout = require('./routes/authRoute')
 const profileRout=require('./routes/profileRoute')
 const quizRout = require('./routes/quizRoute')
 const path = require('path');
-
+const cors = require('cors')
 const app = express()
 require('dotenv').config()
 
 connectDb()
-
+app.use(cors())
 app.use(express.json())
 app.use('/api/auth',authRout)
 app.use('/api/profile',profileRout)
